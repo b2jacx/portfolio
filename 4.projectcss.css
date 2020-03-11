@@ -1,0 +1,212 @@
+
+
+body{
+    background-color :#f0f0f0;
+
+}
+
+div{
+    text-align: center;
+}
+
+
+
+
+h1 {
+    border-inline-start-style: double ;
+    border-inline-end-style: double ;
+    background-color : #7c93a8;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 50px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+   
+}
+
+h2 {
+    color: whitesmoke;
+    font-size: 17px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h3{
+   /* color: #465b6d;*/
+    font-size: 20px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+h7 {
+    color: #61788c;
+    font-size: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-left: 80px; 
+}
+
+
+#dancelogo{
+    width: 250px;
+    border-radius: 500px;
+    border: double #576d7e;
+}
+
+
+
+
+
+h5{
+    color: #929fb0;
+    font-size: 15px;
+}
+
+
+
+
+
+
+
+
+.grid-project {
+    display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
+    grid-gap: 10px;
+    text-align: center;
+}
+
+.grid-project > div{
+    border: #576d7e;
+    text-align: center;
+}
+
+#main1{
+	grid-column: 1 / span 1;
+	text-align: center;
+}
+
+#main2{
+    grid-column:2 / span 1;
+    text-align: center;
+}
+
+#main3{
+	grid-column:3 / span 1;
+	text-align: center;
+}
+
+#main4{
+	grid-column:4 / span 1;
+	text-align: center;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.grid-project {
+		grid-template-columns: 50% 50%;
+ 
+	}
+
+	#main1{
+        grid-column: 1 / span 1;
+        text-align: center;
+	}
+
+	#main2{
+		grid-column: 2 / span 1;
+		text-align: center;
+	}
+
+	#main3{
+		grid-column: 1 / span 1;
+		text-align: center;
+	}
+
+	#main4{
+		grid-column:2 / span 1;
+		text-align: center;
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	.grid-container {
+		grid-template-columns: auto;	   
+	}
+
+	#main1{
+        grid-column: 1 / span 1;
+        text-align: center;
+	}
+
+	#main2{
+		grid-column: 1 / span 1;
+		text-align: center;
+	}
+
+	#main3{
+		grid-column: 1 / span 1;
+		text-align: center;
+	}
+
+	#main4{
+		grid-column:1 / span 1;
+		text-align: center;
+	}
+
+
+
+}
+
+
+
+
+
+
+h4 {
+    text-align: center;
+    color: #ffffff;
+    background-color : #929fb0;
+    font-size: 50px;
+    font-family : Georgia, 'Times New Roman', Times, serif; 
+    border-inline-start-style: double ;
+    border-inline-end-style: double ;
+ 
+}
+
+
+
+
+
+
+
+
+h6{
+	text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family : Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+
+a:link, a:visited {
+	font-size : 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	background-color: #7190a6;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  a:hover, a:active {
+	background-color: #627f93;
+  }

@@ -1,0 +1,91 @@
+body{
+	background-color:#f0f0f0;
+}
+
+div{
+    text-align: center;
+}
+
+h3 {
+    color:#64849b;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+#post1 {
+    font-size: 40px;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 50px;
+}
+
+#reply1 {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #b7cad8;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+#reply2 {
+    text-align: center;
+    font-size: 20px;
+    border-radius: 50px;
+    background-color: #b7cad8;
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+}
+
+
+#box {
+    text-align: center;
+}
+
+textarea{
+    width: 200px;
+    height: 100px;
+    font:  25px Arial;
+}
+
+#allbut{
+    text-align: center;
+}
+
+button {
+    text-align: center;
+    font-size: 15px;
+    background-color: #97b1c4;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    padding: 12px 25px;
+    border: 2px double whitesmoke;
+}
+
+
+h6 {
+	text-align: center;
+    color: #ffffff;
+    font-size: 15px;
+    font-family : Georgia, 'Times New Roman', Times, serif; 
+
+}
+
+
+
+a:link, a:visited {
+	font-size : 15px;
+	font-family: Georgia, 'Times New Roman', Times, serif; 
+	background-color: #7190a6;
+	color: white;
+	padding: 15px 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+  }
+  
+  a:hover, a:active {
+	background-color: #627f93;
+  }

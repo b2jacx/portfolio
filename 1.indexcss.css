@@ -1,0 +1,281 @@
+
+
+body{
+    background-color :#f0f0f0;
+
+}
+
+
+h1 {
+    border-inline-start-style: double ;
+    border-inline-end-style: double ;
+    background-color : #7c93a8;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+    text-align: right;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+/*div {
+    text-align: right;
+   
+}*/
+
+
+
+
+
+
+
+.grid-index {
+    display: grid;
+	grid-template-columns: 300px auto 40%;
+    grid-gap: 200px;
+    text-align: center;
+}
+
+.grid-index > div{
+    border: #576d7e;
+    text-align: center;
+}
+
+#main1{
+	grid-column: 1 / span 1;
+
+}
+
+#main2{
+    grid-column:2 / span 1;
+   
+}
+
+#main3{
+	grid-column:3 / span 1;
+
+}
+
+
+
+
+@media only screen and (max-width: 768px) {
+	.grid-index {
+		grid-template-columns: 300px auto;
+ 
+	}
+
+	#main1{
+        grid-column: 1 / span 1;
+       
+	}
+
+	#main2{
+		grid-column: 2 / span 1;
+	
+	}
+
+	#main3{
+		grid-column: 1 / span 1;
+	
+	}
+
+}
+
+@media only screen and (max-width: 500px) {
+	.grid-index {
+		grid-template-columns: auto;	   
+	}
+
+	#main1{
+        grid-column: 1 / span 1;
+      
+	}
+
+	#main2{
+		grid-column: 1 / span 1;
+		
+	}
+
+	#main3{
+		grid-column: 1 / span 1;
+	
+	}
+
+
+}
+
+
+
+.sidenav {
+    border-inline-start-style: double ;
+    border-inline-end-style: double ;
+    text-align: center;
+    color: #ffffff;
+    height: 630px;
+    width: 300px;
+    position: absolute;
+   /* z-index: 1*/
+    top: 89px;
+    left: 8px;
+    background-color: #7c93a8;
+    /*overflow-x: hidden;*/
+  }
+  
+  
+  /* Side navigation links */
+  .sidenav a {
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color on hover */
+  .sidenav a:hover {
+    background-color: #c8d7e4;
+    color: #0085ff;
+    border-radius: 25px;
+  
+  }
+
+
+
+
+
+#circlephoto{
+    width: 80%;
+    border-radius: 200px;
+    border: 4px groove #7190a6;
+}
+
+#mainphoto{
+    padding-right: 200px;
+    width: 80%;
+  /*  padding-left: 350px;*/
+}
+
+
+#main2 {
+    text-align: right;
+}
+
+.hello {
+    margin-left: 50px;
+    text-align: left;
+    color: #7b8d9e;
+    font-size: 30px;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pan {
+    text-align: center;
+    color: #61788c;
+    font-size: 85px;
+    /*position : absolute;
+    top : 10px;
+    left : 300px;*/
+    font-family : Georgia, 'Times New Roman', Times, serif;
+}
+
+.kallapat {
+    display: flex;
+    color: #506b83;
+    font-size: 15px;
+   /* position : absolute;
+    top : 435px;
+    left : 310px;*/
+    font-family : serif;
+}
+
+p{
+    font-size: 19px;
+    font-family : 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+    #ball{
+        text-align: left;
+       
+    }
+    .rotate-ball1{
+        width: 1%;
+        animation : moveball1 30s linear infinite;
+        position: relative;
+    }
+    
+    @keyframes moveball1{
+        0% { left: 320px; top: 0px;}
+        50% {left: 1470px; top: 0px;}
+        100% {left:1470px; top :550px;}
+    }
+
+    .rotate-ball2{
+        width: 1%;
+        animation : moveball2 30s linear infinite;
+        position: relative;
+    }
+    
+    @keyframes moveball2{
+        0% { left: 1470px; top: 0px;}
+        50% {left: 320px; top: 0px;}
+        100% {left: 320px; top :-550px;}
+    }
+
+
+
+
+
+h2 {
+    border-inline-start-style: double;
+    border-inline-end-style: double;
+    background-color : #929fb0;
+    color: #ffffff;
+    text-align: center;
+    font-size: 30px;
+    font-family : Georgia, 'Times New Roman', Times, serif; 
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 200px;
+   
+}
+
+
+
+h3{
+    
+    background-color:#61788c ;
+    color: #ffffff;
+    font-size: 40px;
+    text-align: center;
+
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+}
+
+h4{
+    color: #61788c;
+    font-size: 35px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif; 
+ 
+}
+
+
+
